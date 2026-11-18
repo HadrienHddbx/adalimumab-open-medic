@@ -26,7 +26,7 @@ et les difficultés rencontrées :
 
 1. **Périmètre.** L'adalimumab est repéré par son code ATC5 (`L04AB04`), identique
    dans tous les fichiers. Un premier filtre sur le libellé (`L_ATC5`) a été
-   abandonné : cette colonne n'existe pas dans les fichiers anciens.
+   abandonné : cette colonne n'existe pas dans les fichiers de 2014 à 2017.
 2. **Nombres au format français.** `REM` et `BSE` sont lues en texte (point pour les
    milliers, virgule pour les décimales). Une fonction les convertit en numérique
    et ne touche pas une colonne déjà convertie : relancer le nettoyage deux fois
@@ -60,7 +60,7 @@ et les difficultés rencontrées :
 
 ## Résultats
 
-<!-- À COMPLÉTER : analyse des résultats -->
+
 
 ![Base de remboursement par boîte](outputs/figures/prix_princeps_biosimilaires.png)
 
